@@ -1,0 +1,172 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #010080;
+  height: 1300px;
+}
+
+#beginBtn {
+  height: 50px;
+  width: 250px;
+  font-size: 1.7em;
+  background-color: #00ff77;
+  border-radius: 10px;
+  font-weight: bold;
+  color: #474141;
+  cursor: pointer;
+}
+
+#beginBtn:hover {
+  color: #00ff77;
+  background-color: #474141;
+}
+
+.helper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+img {
+  height: 500px;
+  width: 580px;
+  margin: 50px 0;
+  border: solid 10px lightblue;
+  -webkit-filter: blur(40px);
+          filter: blur(40px);
+  display: none;
+}
+
+.container {
+  display: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 auto;
+}
+
+.container #hint {
+  margin-bottom: 50px;
+  height: 50px;
+  width: 250px;
+  font-size: 1.7em;
+  background-color: #00ff77;
+  border-radius: 10px;
+  font-weight: bold;
+  color: #474141;
+  cursor: pointer;
+}
+
+.container #hint:hover {
+  color: #00ff77;
+  background-color: #474141;
+}
+
+.container .buttons button {
+  margin-bottom: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 70px;
+  width: 300px;
+  font-size: 1.5em;
+  background-color: lightblue;
+  border-radius: 10px;
+  font-weight: bold;
+  color: #474141;
+  cursor: pointer;
+}
+
+.container .buttons button:hover {
+  font-style: italic;
+}
+
+.container #result {
+  margin: 0 0 50px 0;
+  color: lightblue;
+  font-size: 3em;
+}
+
+.container #continueBtn {
+  display: none;
+  margin-bottom: 50px;
+  height: 50px;
+  width: 250px;
+  font-size: 1.7em;
+  background-color: #00ff77;
+  border-radius: 10px;
+  font-weight: bold;
+  color: #474141;
+  cursor: pointer;
+}
+
+.container #continueBtn:hover {
+  color: #00ff77;
+  background-color: #474141;
+}
+
+#PlayAgain {
+  display: none;
+  height: 70px;
+  width: 300px;
+  margin-bottom: 50px;
+  font-size: 2.5em;
+  background-color: #00ff77;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #474141;
+}
+
+#PlayAgain:hover {
+  color: #00ff77;
+  background-color: #474141;
+}
+
+h1 {
+  color: lightblue;
+  font-size: 3em;
+  margin: 50px 0;
+}
+
+#Home {
+  display: none;
+  height: 70px;
+  width: 300px;
+  font-size: 2.5em;
+  background-color: #00ff77;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#Home a {
+  text-decoration: none;
+  color: #474141;
+}
+
+#Home:hover {
+  background-color: #474141;
+}
+
+#Home:hover a {
+  color: #00ff77;
+}
+/*# sourceMappingURL=gameScreen.css.map */
